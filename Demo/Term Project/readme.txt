@@ -1,3 +1,5 @@
+This was my final project for 15-112 Fundamentals of Programming and Computer Science.
+
 To install vpython:
 In the command prompt, enter:
 	pip install vpython

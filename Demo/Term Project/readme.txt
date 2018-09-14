@@ -1,4 +1,4 @@
-This was my final project for 15-112 Fundamentals of Programming and Computer Science.
+This was my final project for 15-112 Fundamentals of Programming and Computer Science. This project takes inputs of chemical formulas and draws them in 3D. See description.txt for more information.
 
 To install vpython:
 In the command prompt, enter:

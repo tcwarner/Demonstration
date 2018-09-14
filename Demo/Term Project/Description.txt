@@ -1,0 +1,31 @@
+Project Description:
+Chemical Model Viewer: A program that takes inputs of chemical formulas and draws them in 3D.
+Competitive Analysis:
+Most 3D chemical models are pre-rendered and are recalled from a very long list of known chemicals. My program will dynamically convert chemical formulas into compounds. This will greatly reduce the amount of time it takes to find and view 3d models online. Since long chains can be made with appropriate input, theoretical compounds can be explored.
+Structural Plan:
+Three different modes: ionic compounds, covalent compounds, and a demo mode. These modes will exist in tkinter and compound data will be displayed after the chemical is rendered. The chemical will be rendered in 3D in tkinter.
+Algoritmic Plan:
+To draw covalent compounds: determine if each atom bound to the central atom is a single atom or a new functional group. If it is a single atom, draw it. If it is a group, recursively call the draw function on a new central atom.
+Timeline Plan:
+Now: ionic mode, classes+elemental data, ionic formula to draw, ionic reactions, covalent geometry (750 lines)
+TP2: covalent mode, demo mode (250 lines)
+TP3: compound data and additional functionality (300 lines)
+Version Control Plan:
+I am keeping a live version of the code on repl.it.
+Module List:
+vpython, Tkinter, math, fractions
+
+TP2 Update:
+Covalent compounds are now functional
+Demo added
+
+TP3 Update:
+Bond length calculations are now accurate
+The following data is correctly calculated for each chemical:
+All compounds:
+Molar mass, total valence
+Ionic compounds:
+Binding energy, bond length
+Covalent compounds:
+Hydrogen bond formation, hybridization of each central atom
+Easter egg for Cn compounds (element 112)

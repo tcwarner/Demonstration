@@ -6,7 +6,7 @@ If you are running Anaconda, enter:
 All other modules are built into Python.
 
 How to run the 3d Molecule Viewer:
-Run the program in Python 3 after installing vpython.
+Run the file entitled "15-112 Molecule Drawer.py" in Python 3 after installing vpython.
 
 How to use this application:
 In all cases, correct capitalization of elemental symbols must be used. Do not enter parentheses or any punctuation. For example, enter "Ar", not "ar" or "AR".
